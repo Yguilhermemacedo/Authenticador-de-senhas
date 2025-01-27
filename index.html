@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autheticador de Senhas</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1>Authenticador de Senhas</h1>
+            <p>Crie uma senha para validá-la.</p>
+            <!-- Campos de senha -->
+             <div class="campo">
+                <div class="input__senha">
+                    <span class="icone__input"><i class='bx bx-lock-open'></i></span>
+                    <input type="password" name="senha" id="senha" placeholder="Insira uma senha" maxlength="8" required>
+                    <span class="icone__validacao">x</span>
+                </div>
+                <span class="aviso__validacao">(Aviso)</span>
+             </div>
+             <div class="campo">
+                <div class="input__senha">
+                    <span class="icone__input"><i class='bx bx-lock'></i></span>
+                    <input type="password" name="confirma__senha" id="confirma__senha" placeholder="Confirme sua senha" maxlength="8" required>
+                    <span class="icone__confirmacao">v</span>
+                </div>
+                <span class="aviso__confirmacao">(Aviso)</span>
+             </div>
+             <div>
+                <button id="btn-confirmar">Validar senha</button>
+             </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

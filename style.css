@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "DM Sans",sans-serif;
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #201C23;
+}
+
+.container{
+    height: 550px;
+    width: 574px;
+    background-color: #18191A;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+h1{
+    font-size: 30px;
+    color: #fff;
+}
+
+p{
+    color: #b3b3b3;
+    font-size: 16px;
+}
+
+.input__senha{
+    height: 50px;
+    width: 536px;
+    background-color: #1f1f1f;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+}
+
+.icone__input i{
+    font-size: 25px;
+    color: #5F5F5F;
+}
+
+.input__senha input{
+    height: 100%;
+    width: 80%;
+    background-color: #1f1f1f;
+    border: none;
+    outline: none;
+    color: #b3b3b3;
+  
+}
+
+div{
+    width: 100%;
+}
+
+button{
+    height: 50px;
+    width: 100%;
+    border: none;
+    background-color: #159D42;
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: #00C067;
+}
+
+.erro{
+    border: 2px solid #DC0000;
+    color: #DC0000;
+}
+
+.sucesso{
+    border: 2px solid #00C067;
+    color: #00C067;
+}
